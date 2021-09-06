@@ -19,6 +19,7 @@ export default function AboutMe() {
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
+              target="_blank"
             >
               {userData.about.currentProject}
             </a>
@@ -38,6 +39,7 @@ export default function AboutMe() {
                 <a
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                  target="_blank"
                 >
                   mail
                 </a>{" "}
@@ -53,7 +55,7 @@ export default function AboutMe() {
                 check my{" "}
                 <a
                   href={userData.resumeUrl}
-                  target="__blank"
+                  target="_blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   CV
@@ -70,6 +72,7 @@ export default function AboutMe() {
                 <a
                   href={userData.socialLinks.facebook}
                   className="flex flex-row items-center space-x-4 group"
+                  target="_blank"
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
@@ -82,6 +85,7 @@ export default function AboutMe() {
                 <a
                   href={userData.socialLinks.twitter}
                   className="flex flex-row items-center space-x-4 group"
+                  target="_blank"
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
@@ -94,6 +98,7 @@ export default function AboutMe() {
                 <a
                   href={userData.socialLinks.github}
                   className="flex flex-row items-center space-x-4 group"
+                  target="_blank"
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
@@ -106,6 +111,7 @@ export default function AboutMe() {
                 <a
                   href={userData.socialLinks.linkedin}
                   className="flex flex-row items-center space-x-4 group"
+                  target="_blank"
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
@@ -118,6 +124,7 @@ export default function AboutMe() {
                 <a
                   href={userData.socialLinks.devto}
                   className="flex flex-row items-center space-x-4 group"
+                  target="_blank"
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
@@ -145,22 +152,40 @@ export default function AboutMe() {
             <div className="flex flex-row flex-wrap mt-8">
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+                title="Javascript"
+                alt="Javascript"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
+                title="typescript"
+                alt="typescript"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img src="/next-js.png" className="h-20 w-20 mx-4 my-4" />
-              <img src="/strapi.png" className="h-20 w-20 mx-4 my-4" />
+              <img
+                src="/next-js.png"
+                className="h-20 w-20 mx-4 my-4"
+                title="next-js"
+                alt="next-js"
+              />
+              <img
+                src="/strapi.png"
+                className="h-20 w-20 mx-4 my-4"
+                title="strapi"
+                alt="strapi"
+              />
 
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
                 className="h-20 w-20 mx-4 my-4"
+                title="html"
+                alt="html"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
                 className="h-20 w-20 mx-4 my-4"
+                title="CSS"
+                alt="CSS"
               />
               {/* <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
@@ -169,26 +194,38 @@ export default function AboutMe() {
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
                 className="h-20 w-20 mx-4 my-4"
+                title="vue-js"
+                alt="vue-js"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
                 className="h-20 w-20 mx-4 my-4"
+                title="git"
+                alt="git"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
                 className="h-20 w-20 mx-4 my-4"
+                title="react-js"
+                alt="react-js"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
                 className="h-20 w-20 mx-4 my-4"
+                title="firebase"
+                alt="firebase"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
                 className="h-20 w-20 mx-4 my-4"
+                title="mysql"
+                alt="mysql"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
                 className="h-20 w-20 mx-4 my-4"
+                title="mongoDB"
+                alt="mongoDB"
               />
             </div>
           </div>

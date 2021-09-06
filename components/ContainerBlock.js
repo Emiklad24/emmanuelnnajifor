@@ -18,6 +18,8 @@ export default function ContainerBlock({ children, ...customMeta }) {
   return (
     <div>
       <Head>
+        <link rel="icon" href="/avatar.jpg" />
+        <link rel="apple-touch-icon" href="/avatar.jpg" />
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
