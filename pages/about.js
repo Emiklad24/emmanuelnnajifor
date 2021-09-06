@@ -4,7 +4,10 @@ import AboutMe from "../components/AboutMe";
 
 export default function about() {
   return (
-    <ContainerBlock>
+    <ContainerBlock
+      title="About - Emmanuel Nnajiofor - Developer, Blogger, Tutor and Gamer"
+      description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, ut"
+    >
       <AboutMe />
     </ContainerBlock>
   );

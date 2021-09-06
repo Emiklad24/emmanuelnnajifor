@@ -4,7 +4,10 @@ import Contact from "../components/Contact";
 
 export default function contact() {
   return (
-    <ContainerBlock>
+    <ContainerBlock
+      title="Contact - Emmanuel Nnajiofor - Developer, Blogger, Tutor and Gamer"
+      description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, ut"
+    >
       <Contact />
     </ContainerBlock>
   );
