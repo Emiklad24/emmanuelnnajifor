@@ -8,12 +8,13 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Emmanuel Nnajiofor - Developer, Writer, Creator and YouTuber",
-    description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
+    title: "Emmanuel Nnajiofor - Developer, Blogger, Tutor and Gamer",
+    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat iste cupiditate dolorum provident doloremque rerum nam aspernatur, in aut `,
     image: "/avatar.png",
     type: "website",
     ...customMeta,
   };
+
   return (
     <div>
       <Head>

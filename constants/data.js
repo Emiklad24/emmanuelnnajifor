@@ -4,7 +4,7 @@ const userData = {
   designation: "Full-Stack Developer",
   avatarUrl: "/avatar.jpg",
   email: "emma.nnajichi@gmail.com",
-  phone: "+234 8163785517 ",
+  phone: "+234(0)- 816-378-5517 ",
   address: "Abuja, Nigeria.",
   projects: [
     {
