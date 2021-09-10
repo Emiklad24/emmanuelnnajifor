@@ -24,7 +24,7 @@ const userData = {
     },
     {
       title: "Movie app",
-      link: "https://movieapp-149cd.web.app/",
+      link: "https://movie-card.vercel.app/",
       imgUrl: "/movieapp.png",
     },
     {
