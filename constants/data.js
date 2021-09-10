@@ -74,8 +74,9 @@ const userData = {
       desc: "Voluptate eum rerum deleniti reiciendis laborum dignissimos nisi tempore repudiandae, quaerat commodi expedita nobis",
     },
   ],
+
   resumeUrl:
-    "https://drive.google.com/file/d/1bx2TUoCGN0KneTn5BBciK4_A7MVvm3k7/view?usp=sharing",
+    "https://drive.google.com/file/d/1BKxYD6fYh6c6UPPUzAlkmT6wNPBC7Hzl/view?usp=sharing",
   socialLinks: {
     devto: "https://dev.to/nnajiforemma10",
     twitter: "https://twitter.com/NnajioforEmma10",
