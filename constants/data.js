@@ -68,7 +68,7 @@ const userData = {
       desc: [
         "Collaborated with team to build Reporta health Mobile App",
         "Maintained legacy source code for the REAPS  project",
-        "Worked in team to migrate REAPS frontend to react - js",
+        "Worked in team to migrate REAPS frontend to react-js",
         "Built Frontend for the disease registry application (DISREG)",
         "Worked briefly on the EMIS project",
       ],
