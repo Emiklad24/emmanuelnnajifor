@@ -2,10 +2,15 @@ import ContainerBlock from "../components/ContainerBlock";
 import FavouriteProjects from "../components/FavouriteProjects";
 import LatestCode from "../components/LatestCode";
 import Hero from "../components/Hero";
-import getLatestRepos from "@lib/getLatestRepos";
-import userData from "@constants/data";
+import useFetchGitHubRepos from "@hooks/useFetchGitHubRepos.hooks";
+import fetchGitHubRepos from "services/fetchGitHubRepos.service";
+import LatestBlogPosts from "@components/LatestBlog";
+import useFetchDevtoBlogPosts from "@hooks/useFetchDevtoBlogPosts.hooks";
+import fetchLatestBlogPosts from "services/fetchLatestBlogPosts.service";
 
-export default function Home({ repositories }) {
+export default function Home({ repositories, posts }) {
+  const { data } = useFetchGitHubRepos(repositories);
+  const { data: latestposts } = useFetchDevtoBlogPosts(posts);
   return (
     <ContainerBlock
       title="Emmanuel Nnajiofor - Developer, Blogger, Tutor and Gamer"
@@ -13,19 +18,21 @@ export default function Home({ repositories }) {
     >
       <Hero />
       <FavouriteProjects />
-      <LatestCode repositories={repositories} />
+      <LatestCode repositories={data} />
+      <LatestBlogPosts blogPosts={latestposts} />
     </ContainerBlock>
   );
 }
 
-export const getServerSideProps = async () => {
-  let token = process.env.GITHUB_AUTH_TOKEN;
-
-  const repositories = await getLatestRepos?.(userData, token);
+export const getStaticProps = async () => {
+  const posts = await fetchLatestBlogPosts();
+  const repositories = await fetchGitHubRepos();
 
   return {
+    revalidate: 10,
     props: {
       repositories: repositories || null,
+      posts: posts || null,
     },
   };
 };
