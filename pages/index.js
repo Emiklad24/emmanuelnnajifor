@@ -29,7 +29,6 @@ export const getStaticProps = async () => {
   const repositories = await fetchGitHubRepos();
 
   return {
-    revalidate: 10,
     props: {
       repositories: repositories || null,
       posts: posts || null,
