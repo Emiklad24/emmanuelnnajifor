@@ -12,17 +12,17 @@ export default function Experience() {
       <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-4">
         <div className="grid grid-cols-1 dark:bg-gray-900 max-w-xl mx-auto pt-20">
           {/* Experience card */}
-          {userData.experience.map((exp, idx) => (
+          {userData?.experience?.map?.((exp, idx) => (
             <>
               <ExperienceCard
                 key={idx}
-                title={exp.title}
-                desc={exp.desc}
-                year={exp.year}
-                company={exp.company}
-                companyLink={exp.companyLink}
+                title={exp?.title}
+                desc={exp?.desc}
+                year={exp?.year}
+                company={exp?.company}
+                companyLink={exp?.companyLink}
               />
-              {idx === userData.experience.length - 1 ? null : (
+              {idx === userData?.experience?.length - 1 ? null : (
                 <div className="divider-container flex flex-col items-center -mt-2">
                   <div className="w-4 h-4 bg-green-500 rounded-full relative z-10">
                     <div className="w-4 h-4 bg-green-500 rounded-full relative z-10 animate-ping"></div>
@@ -56,7 +56,11 @@ const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
       <a href={companyLink} className="text-gray-500">
         {company}
       </a>
-      <p className="text-gray-600 dark:text-gray-400 my-2">{desc}</p>
+      {desc?.map((item) => (
+        <li className="text-gray-600 dark:text-gray-400 my-2" key={item}>
+          {item}
+        </li>
+      ))}
     </div>
   );
 };

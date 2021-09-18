@@ -9,7 +9,7 @@ export default function Home({ repositories }) {
   return (
     <ContainerBlock
       title="Emmanuel Nnajiofor - Developer, Blogger, Tutor and Gamer"
-      description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, ut"
+      description="I'm a software developer that loves building products and web applications that impact real people"
     >
       <Hero />
       <FavouriteProjects />
@@ -21,11 +21,11 @@ export default function Home({ repositories }) {
 export const getServerSideProps = async () => {
   let token = process.env.GITHUB_AUTH_TOKEN;
 
-  const repositories = await getLatestRepos(userData, token);
+  const repositories = await getLatestRepos?.(userData, token);
 
   return {
     props: {
-      repositories,
+      repositories: repositories || null,
     },
   };
 };

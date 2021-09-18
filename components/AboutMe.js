@@ -15,13 +15,13 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. Currently working on a{" "}
+            {userData?.about?.title}. Currently working on a{" "}
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
-              href={userData.about.currentProjectUrl}
+              href={userData?.about?.currentProjectUrl}
               target="_blank"
             >
-              {userData.about.currentProject}
+              {userData?.about?.currentProject}
             </a>
           </p>
         </div>
@@ -37,7 +37,7 @@ export default function AboutMe() {
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 For any sort of help / enquiry, shoot a .
                 <a
-                  href={`mailto:${userData.email}`}
+                  href={`mailto:${userData?.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                   target="_blank"
                 >
@@ -54,7 +54,7 @@ export default function AboutMe() {
                 I'm looking for a job currently, If you see me as a good fit,
                 check my{" "}
                 <a
-                  href={userData.resumeUrl}
+                  href={userData?.resumeUrl}
                   target="_blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
@@ -70,7 +70,7 @@ export default function AboutMe() {
             <div className="mt-4 ml-4">
               <div className="flex flex-row justify-start items-center ">
                 <a
-                  href={userData.socialLinks.facebook}
+                  href={userData?.socialLinks?.facebook}
                   className="flex flex-row items-center space-x-4 group"
                   target="_blank"
                 >
@@ -83,7 +83,7 @@ export default function AboutMe() {
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href={userData.socialLinks.twitter}
+                  href={userData?.socialLinks?.twitter}
                   className="flex flex-row items-center space-x-4 group"
                   target="_blank"
                 >
@@ -96,7 +96,7 @@ export default function AboutMe() {
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href={userData.socialLinks.github}
+                  href={userData?.socialLinks?.github}
                   className="flex flex-row items-center space-x-4 group"
                   target="_blank"
                 >
@@ -109,7 +109,7 @@ export default function AboutMe() {
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href={userData.socialLinks.linkedin}
+                  href={userData?.socialLinks?.linkedin}
                   className="flex flex-row items-center space-x-4 group"
                   target="_blank"
                 >
@@ -122,7 +122,7 @@ export default function AboutMe() {
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href={userData.socialLinks.devto}
+                  href={userData?.socialLinks?.devto}
                   className="flex flex-row items-center space-x-4 group"
                   target="_blank"
                 >
@@ -137,7 +137,7 @@ export default function AboutMe() {
           </div>
           {/* Text area */}
           <div className="col-span-1 md:col-span-2">
-            {userData.about.description?.map((desc, idx) => (
+            {userData?.about?.description?.map((desc, idx) => (
               <p
                 key={idx}
                 className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
@@ -187,10 +187,7 @@ export default function AboutMe() {
                 title="CSS"
                 alt="CSS"
               />
-              {/* <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
-                className="h-20 w-20 mx-4 my-4"
-              /> */}
+
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
                 className="h-20 w-20 mx-4 my-4"

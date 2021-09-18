@@ -39,7 +39,7 @@ const userData = {
     },
     {
       title: "Disease Registry",
-      link: "#",
+      link: "https://disreg.org/",
       imgUrl: "/DISREG.png",
     },
 
@@ -50,28 +50,39 @@ const userData = {
     },
   ],
   about: {
-    title: `Lorem ipsum dolor sit amet,
-      consectetur adipisicing elit. Molestias voluptates asperiores`,
+    title: `I'm a software developer that loves building products and web applications that impact real people`,
     description: [
-      `Lorem ipsum dolor sit amet consectetur adipisicing elit. At laborum et, beatae impedit dolores nesciunt ab vero aliquid totam quod ea quos facere in earum amet eligendi omnis quas. Aspernatur distinctio voluptate eum rerum deleniti reiciendis laborum dignissimos nisi tempore repudiandae, quaerat commodi expedita nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. At laborum et, beatae impedit dolores nesciunt ab vero aliquid totam quod ea quos facere in earum amet eligendi omnis quas. Aspernatur distinctio voluptate eum rerum deleniti reiciendis laborum dignissimos nisi tempore repudiandae, quaerat commodi expedita nobis.`,
+      `I'm an experienced software engineer who constantly seeks out new solutions to everyday problems. In my three years in this industry, I've honed my analytical thinking and collaboration skills whilst working solely or as part of a team building web and mobile applications in different sectors including agriculture, education, e-commerce and health. I've also had the opportunity to serve as the frontend lead for two project built with Next-js/React-js.`,
+
+      `I do enjoy building UI, especially dashboards, but when projects need my backend skill, I reach out for framework like strapi-js or just plain express-js.`,
     ],
     currentProject: "Secret Project 🤐",
     currentProjectUrl: "#",
   },
   experience: [
     {
-      title: "Web Developer",
+      title: "Software Developer",
       company: "Viable knowledge Masters",
-      year: "2020",
+      year: "2019-2021",
       companyLink: "https://www.viableknowledgemasters.com/",
-      desc: "Voluptate eum rerum deleniti reiciendis laborum dignissimos nisi tempore repudiandae, quaerat commodi expedita nobis",
+      desc: [
+        "Collaborated with team to build Reporta health Mobile App",
+        "Maintained legacy source code for the REAPS  project",
+        "Worked in team to migrate REAPS frontend to react - js",
+        "Built Frontend for the disease registry application (DISREG)",
+        "Worked briefly on the EMIS project",
+      ],
     },
     {
-      title: "Web Developer",
+      title: "Software Developer (Intern)",
       company: "Licorne Technologies",
       year: "2018",
       companyLink: "https://licorne.com.ng/",
-      desc: "Voluptate eum rerum deleniti reiciendis laborum dignissimos nisi tempore repudiandae, quaerat commodi expedita nobis",
+      desc: [
+        "Tutor for beginner Javascript classes",
+        "Coordinated Easter code camps for Kids",
+        "Project instructor for kids robotics",
+      ],
     },
   ],
 

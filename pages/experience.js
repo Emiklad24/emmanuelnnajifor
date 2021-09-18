@@ -6,7 +6,7 @@ export default function experience() {
   return (
     <ContainerBlock
       title="Experience - Emmanuel Nnajiofor - Developer, Blogger, Tutor and Gamer"
-      description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, ut"
+      description="I'm a software developer that loves building products and web applications that impact real people"
     >
       <Experience />
     </ContainerBlock>

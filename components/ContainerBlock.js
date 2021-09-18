@@ -9,7 +9,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
 
   const meta = {
     title: "Emmanuel Nnajiofor - Developer, Blogger, Tutor and Gamer",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat iste cupiditate dolorum provident doloremque rerum nam aspernatur, in aut `,
+    description: `I'm a software developer that loves building products and web applications that impact real people`,
     image: "/avatar.png",
     type: "website",
     ...customMeta,
