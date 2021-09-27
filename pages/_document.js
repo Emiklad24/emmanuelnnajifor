@@ -44,11 +44,11 @@ class MyDocument extends Document {
           <link rel="shortcut icon" href="/avatar.jpg" />
 
           <meta name="twitter:url" content="https://emmanuelnnajiofor.com" />
-          <meta name="twitter:title" content="PWA App" />
+          <meta name="twitter:title" content="Emmanuel's portfolio website" />
 
           <meta
             name="twitter:image"
-            content="https://emmanuelnnajiofor.com/avatar.png"
+            content="https://emmanuelnnajiofor.com/avatar.jpg"
           />
           <meta name="twitter:creator" content="@NnajioforEmma10" />
           <meta property="og:type" content="website" />
@@ -58,7 +58,7 @@ class MyDocument extends Document {
           <meta property="og:url" content="https://emmanuelnnajiofor.com" />
           <meta
             property="og:image"
-            content="https://emmanuelnnajiofor.com/avatar.png"
+            content="https://emmanuelnnajiofor.com/avatar.jpg"
           />
         </Head>
         <body>

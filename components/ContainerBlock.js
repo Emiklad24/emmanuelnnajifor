@@ -10,7 +10,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const meta = {
     title: "Emmanuel Nnajiofor - Developer, Blogger, Tutor and Gamer",
     description: `I'm a software developer that loves building products and web applications that impact real people`,
-    image: "/avatar.png",
+    image: "/avatar.jpg",
     type: "website",
     ...customMeta,
   };
@@ -76,7 +76,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta name="twitter:description" content={meta.description} />
         <meta
           name="twitter:image"
-          content="https://emmanuelnnajiofor.com/avatar.png"
+          content="https://emmanuelnnajiofor.com/avatar.jpg"
         />
         <meta name="twitter:creator" content="@NnajioforEmma10" />
         <meta property="og:type" content="website" />
@@ -86,7 +86,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta property="og:url" content="https://emmanuelnnajiofor.com" />
         <meta
           property="og:image"
-          content="https://emmanuelnnajiofor.com/avatar.png"
+          content="https://emmanuelnnajiofor.com/avatar.jpg"
         />
       </Head>
       <main className="dark:bg-gray-800 w-full">
