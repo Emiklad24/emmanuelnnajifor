@@ -72,22 +72,19 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <link rel="shortcut icon" href="/avatar.jpg" />
 
         <meta name="twitter:url" content="https://emmanuelnnajiofor.com" />
-        <meta name="twitter:title" content="PWA App" />
-        <meta name="twitter:description" content={meta.description} />
         <meta
-          name="twitter:image"
-          content="https://emmanuelnnajiofor.com/avatar.jpg"
+          name="twitter:title"
+          content="Emmanuel Nnajiofor - I'm a software developer that loves building products and web applications that impact real people"
         />
+        <meta name="twitter:description" content={meta.description} />
+        <meta name="twitter:image" content={meta.image} />
         <meta name="twitter:creator" content="@NnajioforEmma10" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Emmanuel's portfolio website" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:site_name" content="emmanuelnnajiofor.com" />
         <meta property="og:url" content="https://emmanuelnnajiofor.com" />
-        <meta
-          property="og:image"
-          content="https://emmanuelnnajiofor.com/avatar.jpg"
-        />
+        <meta property="og:image" content={meta.image} />
       </Head>
       <main className="dark:bg-gray-800 w-full">
         <Navbar />
