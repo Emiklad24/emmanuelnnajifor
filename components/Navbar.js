@@ -22,10 +22,10 @@ export default function Navbar() {
           <Link href="/">
             <a>
               <h1 className="font-semibold text-xl dark:text-gray-100">
-                {userData.name}
+                {userData?.name || ""}
               </h1>
               <p className="text-base font-light text-gray-500 dark:text-gray-300">
-                {userData.designation}
+                {userData?.designation || ""}
               </p>
             </a>
           </Link>
@@ -110,6 +110,7 @@ export default function Navbar() {
               )}
             </a>
           </Link>
+
           <Link href="/contact">
             <a
               className={`text-base  ${
@@ -235,6 +236,7 @@ export default function Navbar() {
             Experience
           </a>
         </Link>
+
         <Link href="/contact">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             Contact

@@ -48,7 +48,7 @@ export default function FavouriteProjects() {
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 Tetelastai Trading Company
               </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+              <h1 className="absolute bottom-10 left-10 text-black font-bold text-xl">
                 01
               </h1>
             </div>

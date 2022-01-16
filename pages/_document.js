@@ -11,6 +11,11 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <link
+            href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+            rel="stylesheet"
+          />
+          <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
           <meta
             name="application-name"
             content="Emmanuel's portfolio website"

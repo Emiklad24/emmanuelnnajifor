@@ -8,7 +8,8 @@ const fetchLatestBlogPosts = async () => {
   });
 
   let posts = res?.data;
-  let latestSixPosts = posts?.splice?.(0, 6);
+
+  let latestSixPosts = posts?.splice?.(0, 12);
 
   return latestSixPosts;
 };

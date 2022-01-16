@@ -8,7 +8,7 @@ const fetchGitHubRepos = async () => {
     `https://api.github.com/search/repositories?q=user:${username}+sort:author-date-asc`
   );
   let repos = res?.data?.items;
-  let latestSixRepos = repos?.splice?.(0, 6);
+  let latestSixRepos = repos?.splice?.(0, 12);
 
   return latestSixRepos;
 };
