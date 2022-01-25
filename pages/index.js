@@ -7,6 +7,7 @@ import fetchGitHubRepos from "services/fetchGitHubRepos.service";
 import LatestBlogPosts from "@components/LatestBlog";
 import useFetchDevtoBlogPosts from "@hooks/useFetchDevtoBlogPosts.hooks";
 import fetchLatestBlogPosts from "services/fetchLatestBlogPosts.service";
+import { Brands } from "@components/Brands";
 
 export default function Home({ repositories, posts }) {
   const { data } = useFetchGitHubRepos(repositories);
@@ -17,6 +18,7 @@ export default function Home({ repositories, posts }) {
       description="I'm a software developer that loves building products and web applications that impact real people"
     >
       <Hero />
+      <Brands />
       <FavouriteProjects />
       <LatestCode repositories={data} />
       <LatestBlogPosts blogPosts={latestposts} />

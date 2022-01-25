@@ -13,6 +13,17 @@ const userData = {
       imgUrl: "/Reporta.png",
     },
     {
+      title: "REAPS",
+      link: "https://reaps.com.ng/",
+      imgUrl: "/REAPS.png",
+    },
+    {
+      title: "Idayat Hassan",
+      link: "https://idayathassan.com/",
+      imgUrl: "/idayathassan.png",
+    },
+
+    {
       title: "Tetelastai Trading Company",
       link: "https://ttcorporation.org/",
       imgUrl: "/tetelastai.png",
@@ -21,12 +32,6 @@ const userData = {
       title: "Moniya",
       link: "https://moniya.com.ng/",
       imgUrl: "/moniya.png",
-    },
-
-    {
-      title: "REAPS",
-      link: "https://reaps.com.ng/",
-      imgUrl: "/REAPS.png",
     },
 
     {
@@ -72,7 +77,7 @@ const userData = {
     {
       title: "Software Developer",
       company: "Viable knowledge Masters",
-      year: "2019-2021",
+      year: "2019-",
       companyLink: "https://www.viableknowledgemasters.com/",
       desc: [
         "Collaborated with team to build Reporta health Mobile App",
