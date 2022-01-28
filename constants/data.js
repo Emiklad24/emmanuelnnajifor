@@ -47,7 +47,7 @@ const userData = {
 
     {
       title: "Movie app",
-      link: "https://movie-card.vercel.app/",
+      link: "https://movie-card-app.vercel.app/",
       imgUrl: "/movieapp.png",
     },
 
