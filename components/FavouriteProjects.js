@@ -76,7 +76,7 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://movie-card.vercel.app/"
+            href="https://movie-card-app.vercel.app/"
             target="_blank"
             className="w-full block col-span-3 sm:col-span-1  object-cover"
           >
