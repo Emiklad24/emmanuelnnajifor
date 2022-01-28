@@ -3,7 +3,7 @@ import React from "react";
 export const Brands = () => {
   return (
     <div className="container mx-auto pt-16 pb-40">
-      <div className="w-11/12 xl:w-2/3 lg:w-2/3 md:w-2/3 mx-auto sm:mb-10 mb-16">
+      <div className="w-11/12 xl:w-2/3 lg:w-2/3 md:w-2/3 mx-auto sm:mb-10 mb-4">
         <h1 className=" xl:text-5xl md:text-3xl text-xl text-center text-gray-800 font-extrabold mb-5 pt-4 dark:text-gray-100">
           Clients & Partners
         </h1>
@@ -54,13 +54,13 @@ export const Brands = () => {
           className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:pt-10 lg:pt-10 md:pt-2 pt-16"
           title="Borrowlite"
         >
-          <img src="/borrowlite.png" alt="borrowlite-logo" width="200" />
+          <img src="/borrowlite.png" alt="borrowlite-logo" width="130" />
         </div>
         <div
           className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-l lg:border-l border-gray-200 xl:pt-10 lg:pt-10 md:pt-2 pt-16"
           title="VKM"
         >
-          <img src="vkm-logo.png" alt="vkm-logo" width="170" />
+          <img src="vkm-logo.png" alt="vkm-logo" width="100" />
         </div>
       </div>
     </div>
