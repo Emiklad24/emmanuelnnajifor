@@ -3,7 +3,7 @@ const userData = {
   name: "Emmanuel Nnajiofor",
   designation: "Full-Stack Developer",
   avatarUrl: "/avatar.jpg",
-  email: "emma.nnajichi@gmail.com",
+  email: "hello@emmanuelnnajiofor.com",
   phone: "+234(0)- 816-378-5517 ",
   address: "Abuja, Nigeria.",
   projects: [
