@@ -18,49 +18,79 @@ export const Brands = () => {
           className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center"
           title="Moniya"
         >
-          <img src="/moniyalogo.png" alt="moniya-company-logo" width="170" />
+          <img
+            src="/moniyalogo.png"
+            alt="moniya-company-logo"
+            width="170"
+            loading="lazy"
+          />
         </div>
         <div
           className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r border-gray-200 xl:pb-10 pb-16 items-center"
           title="Alphasafe"
         >
-          <img src="/alphasafelogo.svg" alt="alphasafe-logo" width="170" />
+          <img
+            src="/alphasafelogo.svg"
+            alt="alphasafe-logo"
+            width="170"
+            loading="lazy"
+          />
         </div>
         <div
           className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b border-gray-200 xl:pb-10 pb-16 pt-4 items-center"
           title="Center for democracy & development"
         >
-          <img src="cddlogo.png" alt="cdd-logo" width="300" />
+          <img src="cddlogo.png" alt="cdd-logo" width="200" loading="lazy" />
         </div>
         <div
           className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center lg:border-b xl:border-b lg:border-l xl:border-l border-gray-200 xl:pb-10 pb-16 items-center"
           title="procureX"
         >
-          <img src="/procurexlogo.svg" alt="procurex-logo" width="170" />
+          <img
+            src="/procurexlogo.svg"
+            alt="procurex-logo"
+            width="170"
+            loading="lazy"
+          />
         </div>
         <div
           className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-r lg:border-r border-gray-200 xl:pt-10 items-center"
-          title="Tetelestai "
+          title="Tetelestai"
         >
-          <img src="/tetelestallogo.jpeg" alt width="170" />
+          <img
+            src="/tetelestallogo.jpeg"
+            alt="Tetelestai"
+            width="170"
+            loading="lazy"
+          />
         </div>
         <div
           className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-r lg:border-r border-gray-200 xl:pt-10 items-center"
           title="Licorne Technologies"
         >
-          <img src="/licorenelogo.png" alt width="170" />
+          <img
+            src="/licorenelogo.png"
+            alt="Licorne Technologies"
+            width="170"
+            loading="lazy"
+          />
         </div>
         <div
           className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:pt-10 lg:pt-10 md:pt-2 pt-16"
           title="Borrowlite"
         >
-          <img src="/borrowlite.png" alt="borrowlite-logo" width="130" />
+          <img
+            src="/borrowlite.png"
+            alt="borrowlite-logo"
+            width="130"
+            loading="lazy"
+          />
         </div>
         <div
           className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-l lg:border-l border-gray-200 xl:pt-10 lg:pt-10 md:pt-2 pt-16"
           title="VKM"
         >
-          <img src="vkm-logo.png" alt="vkm-logo" width="100" />
+          <img src="vkm-logo.png" alt="vkm-logo" width="100" loading="lazy" />
         </div>
       </div>
     </div>

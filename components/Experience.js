@@ -34,10 +34,16 @@ export default function Experience() {
           ))}
           <a href="https://profile.codersrank.io/user/emiklad24">
             <div className="mt-8">
-              <img src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=emiklad24&badges=3&show-header=true&show-avatar=true&style=--header-bg-color:%23000;--border-radius:10px" />
+              <img
+                src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=emiklad24&badges=3&show-header=true&show-avatar=true&style=--header-bg-color:%23000;--border-radius:10px"
+                loading="lazy"
+              />
             </div>
             <div className="mt-8">
-              <img src="https://cr-skills-chart-widget.azurewebsites.net/api/api?username=emiklad24&skills=JavaScript,HTML,CSS,JSON,Less&show-other-skills=true" />
+              <img
+                src="https://cr-skills-chart-widget.azurewebsites.net/api/api?username=emiklad24&skills=JavaScript,HTML,CSS,JSON,Less&show-other-skills=true"
+                loading="lazy"
+              />
             </div>
           </a>
         </div>

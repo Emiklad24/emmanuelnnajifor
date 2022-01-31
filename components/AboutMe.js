@@ -155,24 +155,28 @@ export default function AboutMe() {
                 title="Javascript"
                 alt="Javascript"
                 className="h-20 w-20 mx-4 my-4"
+                loading="lazy"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
                 title="typescript"
                 alt="typescript"
                 className="h-20 w-20 mx-4 my-4"
+                loading="lazy"
               />
               <img
                 src="/next-js.png"
                 className="h-20 w-20 mx-4 my-4"
                 title="next-js"
                 alt="next-js"
+                loading="lazy"
               />
               <img
                 src="/strapi.png"
                 className="h-20 w-20 mx-4 my-4"
                 title="strapi"
                 alt="strapi"
+                loading="lazy"
               />
 
               <img
@@ -180,12 +184,14 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
                 title="html"
                 alt="html"
+                loading="lazy"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
                 className="h-20 w-20 mx-4 my-4"
                 title="CSS"
                 alt="CSS"
+                loading="lazy"
               />
 
               <img
@@ -193,36 +199,42 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
                 title="vue-js"
                 alt="vue-js"
+                loading="lazy"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
                 className="h-20 w-20 mx-4 my-4"
                 title="git"
                 alt="git"
+                loading="lazy"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
                 className="h-20 w-20 mx-4 my-4"
                 title="react-js"
                 alt="react-js"
+                loading="lazy"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
                 className="h-20 w-20 mx-4 my-4"
                 title="firebase"
                 alt="firebase"
+                loading="lazy"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
                 className="h-20 w-20 mx-4 my-4"
                 title="mysql"
                 alt="mysql"
+                loading="lazy"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
                 className="h-20 w-20 mx-4 my-4"
                 title="mongoDB"
                 alt="mongoDB"
+                loading="lazy"
               />
             </div>
           </div>

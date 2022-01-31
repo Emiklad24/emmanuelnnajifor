@@ -40,6 +40,7 @@ export default function Hero() {
             src={userData.avatarUrl}
             alt="Emmanuel Nnajiofor"
             className=" shadow"
+            loading="lazy"
           />
           <div className="flex flex-row justify-between mt-4">
             <div className="flex flex-row space-x-4">

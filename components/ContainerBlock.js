@@ -62,8 +62,8 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <link rel="apple-touch-icon" sizes="180x180" href="/avatar.jpg" />
         <link rel="apple-touch-icon" sizes="167x167" href="/avatar.jpg" />
         <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/avatar.jpg" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/avatar.jpg" />
+        <link rel="icon" type="image/jpg" sizes="32x32" href="/avatar.jpg" />
+        <link rel="icon" type="image/jpg" sizes="16x16" href="/avatar.jpg" />
 
         <link rel="mask-icon" href="/avatar.jpg" color="#5bbad5" />
         <link rel="shortcut icon" href="/avatar.ico" />

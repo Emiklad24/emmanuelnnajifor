@@ -5,6 +5,7 @@ const BlogPostCard = ({ latestPost }) => {
         src={latestPost?.cover_image}
         alt={latestPost?.title}
         className="mb-4 rounded-md object-cover shadow-2xl h-48"
+        loading="lazy"
       />
 
       <h1 className="font-semibold text-xl dark:text-gray-200 text-gray-700">

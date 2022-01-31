@@ -44,6 +44,7 @@ export default function FavouriteProjects() {
                 src="/tetelastai.png"
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
+                loading="lazy"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 Tetelastai Trading Company
@@ -65,6 +66,7 @@ export default function FavouriteProjects() {
                 src="/Reporta.png"
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
+                loading="lazy"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 Reporta Health
@@ -86,6 +88,7 @@ export default function FavouriteProjects() {
                 src="/movieapp.png"
                 alt="movie app screenshot"
                 className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
+                loading="lazy"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 Movie app
