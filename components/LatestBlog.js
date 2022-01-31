@@ -1,5 +1,6 @@
 import React from "react";
 import BlogPostCard from "./BlogPostCard";
+import { motion } from "framer-motion/dist/framer-motion";
 
 export default function LatestBlogPosts({ blogPosts }) {
   return (
@@ -10,37 +11,44 @@ export default function LatestBlogPosts({ blogPosts }) {
             Latest Posts
           </h1>
 
-          <a
-            href={`https://dev.to/nnajiforemma10`}
-            target="_blank"
-            className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
+          <motion.div
+            whileHover={{ scale: 1.1, position: "relative", zIndex: 2 }}
+            whileTap={{ scale: 0.95 }}
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              className="bi bi-arrow-up-right-square"
-              stroke="4"
-              strokeWidth="4"
-              viewBox="0 0 16 16"
+            <a
+              href={`https://dev.to/nnajiforemma10`}
+              target="_blank"
+              className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
             >
-              <path
-                fillRule="evenodd"
-                d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"
-              />
-            </svg>
-            <p>View Posts</p>
-          </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-arrow-up-right-square"
+                stroke="4"
+                strokeWidth="4"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"
+                />
+              </svg>
+              <p>View Posts</p>
+            </a>
+          </motion.div>
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-10 lg:-mt-10 gap-y-20">
         {blogPosts?.map?.((latestPost, idx) => (
-          <BlogPostCard
-            latestPost={latestPost}
-            key={latestPost?.title}
+          <motion.div
+            whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
+            whileTap={{ scale: 0.95 }}
             key={idx}
-          />
+          >
+            <BlogPostCard latestPost={latestPost} key={latestPost?.title} />
+          </motion.div>
         ))}
       </div>
     </section>

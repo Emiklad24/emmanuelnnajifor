@@ -1,5 +1,6 @@
 import userData from "@constants/data";
 import React from "react";
+import { motion } from "framer-motion/dist/framer-motion";
 
 export default function Experience() {
   return (
@@ -13,9 +14,11 @@ export default function Experience() {
         <div className="grid grid-cols-1 dark:bg-gray-900 max-w-xl mx-auto pt-20">
           {/* Experience card */}
           {userData?.experience?.map?.((exp, idx) => (
-            <>
+            <motion.div
+              key={idx}
+              whileHover={{ scale: 1.02, position: "relative", zIndex: 2 }}
+            >
               <ExperienceCard
-                key={idx}
                 title={exp?.title}
                 desc={exp?.desc}
                 year={exp?.year}
@@ -30,7 +33,7 @@ export default function Experience() {
                   <div className="w-1 h-24 bg-gray-200 dark:bg-gray-500 rounded-full -mt-2"></div>
                 </div>
               )}
-            </>
+            </motion.div>
           ))}
           <a href="https://profile.codersrank.io/user/emiklad24">
             <div className="mt-8">

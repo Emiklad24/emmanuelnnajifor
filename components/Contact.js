@@ -1,5 +1,6 @@
 import React from "react";
 import userData from "@constants/data";
+import { motion } from "framer-motion/dist/framer-motion";
 
 export default function Contact() {
   return (
@@ -154,12 +155,17 @@ export default function Contact() {
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="message"
             ></textarea>
-            <button
-              type="submit"
-              className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
+            <motion.div
+              whileHover={{ scale: 1.08, x: 10 }}
+              whileTap={{ scale: 0.95, x: -10 }}
             >
-              Send Message
-            </button>
+              <button
+                type="submit"
+                className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
+              >
+                Send Message
+              </button>
+            </motion.div>
           </form>
         </div>
       </div>
