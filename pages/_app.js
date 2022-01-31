@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps, router }) {
     <QueryClientProvider client={queryClient}>
       <Hydrate state={pageProps.dehydratedState}>
         <ThemeProvider defaultTheme="light" attribute="class">
-          <AnimatePresence>
+          <AnimatePresence exitBeforeEnter>
             <motion.div
               key={router.route}
               initial="pageInitial"
@@ -23,9 +23,11 @@ function MyApp({ Component, pageProps, router }) {
                 },
                 pageAnimate: {
                   opacity: 1,
+                  transition: {
+                    duration: 0.5,
+                  },
                 },
                 pageExit: {
-                  backgroundColor: "white",
                   opacity: 0,
                 },
               }}
