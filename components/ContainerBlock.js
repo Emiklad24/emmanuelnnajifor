@@ -41,7 +41,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta name="twitter:site" content="@NnajioforEmma10" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
-        <meta name="twitter:image" content="avatar.ico" />
+        <meta name="twitter:image" content="/avatar.ico" />
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
