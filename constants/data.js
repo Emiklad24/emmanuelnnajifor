@@ -69,7 +69,7 @@ const userData = {
     description: [
       `I am an accomplished software engineer, problem solver, and technical leader with a focus on producing top-quality software systems that exceed customer expectations. I embrace agile methodology and continuous improvement as well as the role of mentoring less-experienced teammates. Along with my technical expertise, I bring a positive spirit to my teams that is contagious and encourages teammates to turn to me for help and guidance.`,
 
-      `I am an excellent communicator with an aptitude for listening to end users and stakeholders to gather, document, and implement software requirements. I am able to explain complicated technical issues to non-technical people.``I have a track record of successful project outcomes across a wide variety of industries including health, real estate, and E-commerce.`,
+      `I am an excellent communicator with an aptitude for listening to end users and stakeholders to gather, document, and implement software requirements. I am able to explain complicated technical issues to non-technical people. I have a track record of successful project outcomes across a wide variety of industries including health, real estate, and E-commerce.`,
 
       `#react-js | #node-js | #strapi-js | #next-js | #react-native`,
     ],
