@@ -83,11 +83,9 @@ const userData = {
       year: "2022-",
       companyLink: "https://www.thechumeffect.com/",
       desc: [
-        "Collaborated with team to build Reporta health Mobile App",
-        "Maintained legacy source code for the REAPS  project",
-        "Worked in team to migrate REAPS frontend to react-js",
-        "Built Frontend for the disease registry application (DISREG)",
-        "Worked briefly on the EMIS project",
+        "Worked as collaborator for developing mobile User interface with Typescript React-native",
+        "Use of Typescript ReactJS/Redux to create a unique web applications; utilize data acquired from RESTful API endpoints to display user information based on role, permissions and available data.",
+        "Actively engage in Agile methods such as daily scrum updates to increase team efficiency and communication",
       ],
     },
     {
