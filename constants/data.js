@@ -65,11 +65,7 @@ const userData = {
   ],
   about: {
     title: `I'm a software developer that loves building products and web applications that impact real people`,
-    // description: [
-    //   `I'm an experienced software engineer who constantly seeks out new solutions to everyday problems. In my three years in this industry, I've honed my analytical thinking and collaboration skills whilst working solely or as part of a team building web and mobile applications in different sectors including agriculture, education, e-commerce and health. I've also had the opportunity to serve as the frontend lead for two project built with Next-js/React-js.`,
 
-    //   `I do enjoy building UI, especially dashboards, but when projects need my backend skill, I reach out for framework like strapi-js or just plain express-js.`,
-    // ],
     description: [
       `I am an accomplished software engineer, problem solver, and technical leader with a focus on producing top-quality software systems that exceed customer expectations. I embrace agile methodology and continuous improvement as well as the role of mentoring less-experienced teammates. Along with my technical expertise, I bring a positive spirit to my teams that is contagious and encourages teammates to turn to me for help and guidance.`,
 
