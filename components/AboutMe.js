@@ -61,7 +61,6 @@ export default function AboutMe() {
                 >
                   CV
                 </a>{" "}
-                and I'd love to work for you.
               </p>
             </div>
             {/* Social Links */}
