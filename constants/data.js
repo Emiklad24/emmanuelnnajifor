@@ -77,7 +77,7 @@ const userData = {
     {
       title: "Software Developer",
       company: "Viable knowledge Masters",
-      year: "2019-",
+      year: "2019-May 2022",
       companyLink: "https://www.viableknowledgemasters.com/",
       desc: [
         "Collaborated with team to build Reporta health Mobile App",
