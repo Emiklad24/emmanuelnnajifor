@@ -44,7 +44,6 @@ export default function LatestBlogPosts({ blogPosts }) {
         {blogPosts?.map?.((latestPost, idx) => (
           <motion.div
             whileHover={{ scale: 1.05, position: "relative", zIndex: 2 }}
-            whileTap={{ scale: 0.95 }}
             key={idx}
           >
             <BlogPostCard latestPost={latestPost} key={latestPost?.title} />
