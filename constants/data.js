@@ -115,11 +115,11 @@ const userData = {
   ],
 
   resumeUrl:
-    "https://drive.google.com/file/d/1BKxYD6fYh6c6UPPUzAlkmT6wNPBC7Hzl/view?usp=sharing",
+    "https://drive.google.com/file/d/1NXiV22cyna02P1EdjI4hILrxXodNcEzs/view?usp=share_link",
   socialLinks: {
     devto: "https://dev.to/nnajiforemma10",
     twitter: "https://twitter.com/NnajioforEmma10",
-    linkedin: "https://www.linkedin.com/in/emmanuel-nnajiofor-94b913193/",
+    linkedin: "https://www.linkedin.com/in/emmanuel-nnajiofor/",
     github: "https://github.com/Emiklad24",
     facebook: "https://web.facebook.com/emik.lad.3",
   },
