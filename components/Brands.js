@@ -53,17 +53,17 @@ export const Brands = () => {
             loading="lazy"
           />
         </div>
-//         <div
-//           className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-r lg:border-r border-gray-200 xl:pt-10 items-center"
-//           title="Tetelestai"
-//         >
-//           <img
-//             src="/tetelestallogo.jpeg"
-//             alt="Tetelestai"
-//             width="170"
-//             loading="lazy"
-//           />
-//         </div>
+        <div
+          className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-r lg:border-r border-gray-200 xl:pt-10 items-center"
+          title="Tetelestai"
+        >
+          <img
+            src="/tetelestallogo.jpeg"
+            alt="Tetelestai"
+            width="170"
+            loading="lazy"
+          />
+        </div>
         <div
           className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-r lg:border-r border-gray-200 xl:pt-10 items-center"
           title="Licorne Technologies"
@@ -86,12 +86,12 @@ export const Brands = () => {
             loading="lazy"
           />
         </div>
-//         <div
-//           className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-l lg:border-l border-gray-200 xl:pt-10 lg:pt-10 md:pt-2 pt-16"
-//           title="VKM"
-//         >
-//           <img src="vkm-logo.png" alt="vkm-logo" width="100" loading="lazy" />
-//         </div>
+        <div
+          className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-l lg:border-l border-gray-200 xl:pt-10 lg:pt-10 md:pt-2 pt-16"
+          title="VKM"
+        >
+          <img src="vkm-logo.png" alt="vkm-logo" width="100" loading="lazy" />
+        </div>
       </div>
     </div>
   );
