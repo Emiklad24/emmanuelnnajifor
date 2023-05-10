@@ -18,7 +18,7 @@ export default function Home({ repositories, posts }) {
       description="I'm a software developer that loves building products and web applications that impact real people"
     >
       <Hero />
-      <Brands />
+//       <Brands />
       <FavouriteProjects />
       <LatestCode repositories={data} />
       <LatestBlogPosts blogPosts={latestposts} />
