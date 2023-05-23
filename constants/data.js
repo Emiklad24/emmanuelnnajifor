@@ -83,9 +83,20 @@ const userData = {
   },
   experience: [
     {
+      title: "Health Informatics Specialist",
+      company: "The Palldium group International",
+      year: "May 2023-",
+      companyLink: "https://thepalladiumgroup.com/",
+      // desc: [
+      //   "Worked as collaborator for developing mobile User interface with Typescript React-native",
+      //   "Use of Typescript ReactJS/Redux to create a unique web applications; utilize data acquired from RESTful API endpoints to display user information based on role, permissions and available data.",
+      //   "Actively engage in Agile methods such as daily scrum updates to increase team efficiency and communication",
+      // ],
+    },
+    {
       title: "Software Developer",
       company: "TheChumEffect (TCE)",
-      year: "2022-",
+      year: "2022-Dec 2023",
       companyLink: "https://www.thechumeffect.com/",
       desc: [
         "Worked as collaborator for developing mobile User interface with Typescript React-native",
@@ -93,19 +104,19 @@ const userData = {
         "Actively engage in Agile methods such as daily scrum updates to increase team efficiency and communication",
       ],
     },
-//     {
-//       title: "Software Developer",
-//       company: "Viable knowledge Masters",
-//       year: "2019-May 2022",
-//       companyLink: "https://www.viableknowledgemasters.com/",
-//       desc: [
-//         "Collaborated with team to build Reporta health Mobile App",
-//         "Maintained legacy source code for the REAPS  project",
-//         "Worked in team to migrate REAPS frontend to react-js",
-//         "Built Frontend for the disease registry application (DISREG)",
-//         "Worked briefly on the EMIS project",
-//       ],
-//     },
+    {
+      title: "Software Developer",
+      company: "Viable knowledge Masters",
+      year: "2019-May 2022",
+      companyLink: "https://www.viableknowledgemasters.com/",
+      desc: [
+        "Collaborated with team to build Reporta health Mobile App",
+        "Maintained legacy source code for the REAPS  project",
+        "Worked in team to migrate REAPS frontend to react-js",
+        "Built Frontend for the disease registry application (DISREG)",
+        "Worked briefly on the EMIS project",
+      ],
+    },
     {
       title: "Software Developer (Intern)",
       company: "Licorne Technologies",
