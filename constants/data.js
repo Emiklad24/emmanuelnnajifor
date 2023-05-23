@@ -7,16 +7,16 @@ const userData = {
   phone: "+234(0)- 816-378-5517 ",
   address: "Abuja, Nigeria.",
   projects: [
-//     {
-//       title: "Reporta Health",
-//       link: "https://reportahealth.org/",
-//       imgUrl: "/Reporta.png",
-//     },
-//     {
-//       title: "REAPS",
-//       link: "https://reaps.com.ng/",
-//       imgUrl: "/REAPS.png",
-//     },
+    {
+      title: "Reporta Health",
+      link: "https://reportahealth.org/",
+      imgUrl: "/Reporta.png",
+    },
+    {
+      title: "REAPS",
+      link: "https://reaps.com.ng/",
+      imgUrl: "/REAPS.png",
+    },
     {
       title: "Idayat Hassan",
       link: "https://idayathassan.com/",
@@ -34,11 +34,11 @@ const userData = {
       imgUrl: "/moniya.png",
     },
 
-//     {
-//       title: "Disease Registry",
-//       link: "https://disreg.org/",
-//       imgUrl: "/DISREG.png",
-//     },
+    {
+      title: "Disease Registry",
+      link: "https://disreg.org/",
+      imgUrl: "/DISREG.png",
+    },
     {
       title: "AlphaSafe Back Office (In view)",
       link: "#",
@@ -61,6 +61,11 @@ const userData = {
       title: "Photo Store",
       link: "https://bejamasshop.netlify.app/",
       imgUrl: "/photostore.png",
+    },
+    {
+      title: "Sushi Place",
+      link: "https://sushi-place.vercel.app/",
+      imgUrl: "/sushi-place.png",
     },
   ],
   about: {

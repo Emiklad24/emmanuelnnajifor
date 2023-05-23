@@ -84,20 +84,20 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://movie-card-app.vercel.app/"
+            href="https://sushi-place.vercel.app/"
             target="_blank"
             className="w-full block col-span-3 sm:col-span-1  object-cover"
           >
             <div className="relative overflow-hidden shadow-2xl">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/movieapp.png"
-                alt="movie app screenshot"
+                src="/sushi-place.png"
+                alt="Sushi place screenshot"
                 className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
                 loading="lazy"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Movie app
+               Sushi Place
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 03
