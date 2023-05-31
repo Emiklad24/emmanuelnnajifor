@@ -67,6 +67,11 @@ const userData = {
       link: "https://sushi-place.vercel.app/",
       imgUrl: "/sushi-place.png",
     },
+    {
+      title: "The Chum Effect LLC",
+      link: "https://thechumeffect.com/",
+      imgUrl: "/thechumeffect.png",
+    },
   ],
   about: {
     title: `I'm a software developer that loves building products and web applications that impact real people`,
