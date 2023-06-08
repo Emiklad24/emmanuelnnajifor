@@ -92,11 +92,20 @@ const userData = {
       company: "The Palldium group International",
       year: "May 2023-",
       companyLink: "https://thepalladiumgroup.com/",
-      // desc: [
-      //   "Worked as collaborator for developing mobile User interface with Typescript React-native",
-      //   "Use of Typescript ReactJS/Redux to create a unique web applications; utilize data acquired from RESTful API endpoints to display user information based on role, permissions and available data.",
-      //   "Actively engage in Agile methods such as daily scrum updates to increase team efficiency and communication",
-      // ],
+      desc: [
+        "Evaluate existing systems and maintain detailed technical documentation for all products developed, including system design documents, data dictionaries, and database design.",
+        `Ensure sufficient technology support is provided to COVID-19 response reporting systems i.e.,
+        NCDC’s Surveillance Outbreak Response Management and Analysis System (SORMAS) and paper based systems`,
+        `Evaluate business processes, anticipate requirements, uncover areas for improvement, and support
+        the development and implementation of solutions.`,
+        ` Design and development of high-capacity web-based information systems, and mobile applications
+        for the cloud and local environments.`,
+        `Develop test plans and procedures and make sure that requirements are met.`,
+        ` Architecting overall, comprehensive, and efficient practices.`,
+        `Participate in and support the entire software development life cycle (SDLC) processes in supporting the development of digital solutions to enable the FMOH’s tracking of Oxygen supplies and commodities.        `,
+        `Coordinate and participate in relevant stakeholder technical working groups.`,
+        `Any other duties assigned as per the dynamic programming environment.`,
+      ],
     },
     {
       title: "Software Developer",
