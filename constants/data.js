@@ -72,6 +72,11 @@ const userData = {
       link: "https://thechumeffect.com/",
       imgUrl: "/thechumeffect.png",
     },
+    {
+      title: "Stock Photos",
+      link: "https://stock-photos-project-new.vercel.app/",
+      imgUrl: "/stock-photos.png",
+    },
   ],
   about: {
     title: `I'm a software developer that loves building products and web applications that impact real people`,
