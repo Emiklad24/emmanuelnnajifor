@@ -5,7 +5,7 @@ export const useQueryClientAndsettings = () => {
   const queryClientSettings = {
     defaultOptions: {
       queries: {
-        retry: 7,
+        retry: 5,
         refetchOnMount: "always",
         refetchOnWindowFocus: "always",
         refetchOnReconnect: "always",
