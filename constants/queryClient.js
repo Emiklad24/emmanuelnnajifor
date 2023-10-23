@@ -10,7 +10,7 @@ export const useQueryClientAndsettings = () => {
         refetchOnWindowFocus: "always",
         refetchOnReconnect: "always",
         cacheTime: 2.628e9,
-        refetchInterval: 30000, // 30 seconds
+        refetchInterval: 30000,
         refetchIntervalInBackground: false,
         suspense: false,
         staleTime: 2.628e9,
