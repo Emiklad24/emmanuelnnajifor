@@ -149,15 +149,18 @@ const userData = {
     },
   ],
 
-  resumeUrl:
-    "https://drive.google.com/file/d/1NXiV22cyna02P1EdjI4hILrxXodNcEzs/view?usp=share_link",
+  // "https://drive.google.com/file/d/1NXiV22cyna02P1EdjI4hILrxXodNcEzs/view?usp=share_link",
+  resumeUrl:"https://drive.google.com/file/d/1BcyDP23Td9YhkpvfrM7ec9qJXhXCqRUU/view?usp=sharing",
   socialLinks: {
     devto: "https://dev.to/nnajiforemma10",
     twitter: "https://twitter.com/NnajioforEmma10",
+    medium: "https://medium.com/@emiklad",
     linkedin: "https://www.linkedin.com/in/emmanuel-nnajiofor/",
     github: "https://github.com/Emiklad24",
     facebook: "https://web.facebook.com/emik.lad.3",
   },
 };
+
+
 
 export default userData;
