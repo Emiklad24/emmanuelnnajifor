@@ -74,7 +74,7 @@ const userData = {
     },
     {
       title: "Stock Photos",
-      link: "https://stock-photos-project-new.vercel.app/",
+      link: "https://stock-photos-project.vercel.app/",
       imgUrl: "/stock-photos.png",
     },
   ],
@@ -94,7 +94,7 @@ const userData = {
   experience: [
     {
       title: "Health Informatics Specialist",
-      company: "The Palldium group International",
+      company: "The Palladium group International",
       year: "May 2023-",
       companyLink: "https://thepalladiumgroup.com/",
       desc: [
