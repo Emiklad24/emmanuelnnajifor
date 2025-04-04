@@ -57,10 +57,15 @@ const userData = {
       imgUrl: "/worldrank.png",
     },
 
+    // {
+    //   title: "Photo Store",
+    //   link: "https://bejamasshop.netlify.app/",
+    //   imgUrl: "/photostore.png",
+    // },
     {
-      title: "Photo Store",
-      link: "https://bejamasshop.netlify.app/",
-      imgUrl: "/photostore.png",
+      title: "Get Messenger",
+      link: "https://getmessenger.ng/",
+      imgUrl: "/getmessenger.png",
     },
     {
       title: "Sushi Place",
