@@ -17,11 +17,11 @@ const userData = {
       link: "https://reaps.com.ng/",
       imgUrl: "/REAPS.png",
     },
-    {
-      title: "Idayat Hassan",
-      link: "https://idayathassan.com/",
-      imgUrl: "/idayathassan.png",
-    },
+    // {
+    //   title: "Idayat Hassan",
+    //   link: "https://idayathassan.com/",
+    //   imgUrl: "/idayathassan.png",
+    // },
 
     {
       title: "Tetelastai Trading Company",
@@ -39,11 +39,11 @@ const userData = {
       link: "https://disreg.org/",
       imgUrl: "/DISREG.png",
     },
-    {
-      title: "AlphaSafe Back Office (In view)",
-      link: "#",
-      imgUrl: "/alphasafe.png",
-    },
+    // {
+    //   title: "AlphaSafe Back Office (In view)",
+    //   link: "#",
+    //   imgUrl: "/alphasafe.png",
+    // },
 
     {
       title: "Movie app",
