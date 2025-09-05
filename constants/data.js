@@ -154,7 +154,7 @@ const userData = {
     },
   ],
 
-  resumeUrl:"https://docs.google.com/document/d/1uIgLdunxx4whgPgS_K-Tzr-H1wzbYZsp/edit?usp=sharing&ouid=103642210340515606110&rtpof=true&sd=true",
+  resumeUrl:"https://docs.google.com/document/d/1YPtCQ_Ev1qFmpghhNI_G40G2AhhDWIzq/edit?usp=sharing&ouid=103642210340515606110&rtpof=true&sd=true",
   socialLinks: {
     devto: "https://dev.to/nnajiforemma10",
     twitter: "https://twitter.com/NnajioforEmma10",
