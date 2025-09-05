@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "Emiklad24",
   name: "Emmanuel Nnajiofor",
-  designation: "Full-Stack Developer",
+  designation: "Senior Software Developer",
   avatarUrl: "/avatar.jpg",
   email: "hello@emmanuelnnajiofor.com",
   phone: "+234(0)- 816-378-5517 ",
@@ -118,10 +118,10 @@ const userData = {
       ],
     },
     {
-      title: "Software Developer",
-      company: "TheChumEffect (TCE)",
-      year: "2022-Dec 2023",
-      companyLink: "https://www.thechumeffect.com/",
+      title: "Software Engineer",
+      company: "Licorne Technologies",
+      year: "April 2022 - Dec 2022",
+      companyLink: "https://licorne.com.ng/",
       desc: [
         "Worked as collaborator for developing mobile User interface with Typescript React-native",
         "Use of Typescript ReactJS/Redux to create a unique web applications; utilize data acquired from RESTful API endpoints to display user information based on role, permissions and available data.",
@@ -129,10 +129,10 @@ const userData = {
       ],
     },
     {
-      title: "Software Developer",
-      company: "Viable knowledge Masters",
-      year: "2019-May 2022",
-      companyLink: "https://www.viableknowledgemasters.com/",
+      title: "Full-Stack Developer",
+      company: "Licorne Technologies",
+      year: "Sept 2019 - May 2022",
+      companyLink: "https://licorne.com.ng/",
       desc: [
         "Collaborated with team to build Reporta health Mobile App",
         "Maintained legacy source code for the REAPS  project",
@@ -154,8 +154,7 @@ const userData = {
     },
   ],
 
-  // "https://drive.google.com/file/d/1NXiV22cyna02P1EdjI4hILrxXodNcEzs/view?usp=share_link",
-  resumeUrl:"https://drive.google.com/file/d/1BcyDP23Td9YhkpvfrM7ec9qJXhXCqRUU/view?usp=sharing",
+  resumeUrl:"https://docs.google.com/document/d/1uIgLdunxx4whgPgS_K-Tzr-H1wzbYZsp/edit?usp=sharing&ouid=103642210340515606110&rtpof=true&sd=true",
   socialLinks: {
     devto: "https://dev.to/nnajiforemma10",
     twitter: "https://twitter.com/NnajioforEmma10",
@@ -165,7 +164,6 @@ const userData = {
     facebook: "https://web.facebook.com/emik.lad.3",
   },
 };
-
 
 
 export default userData;

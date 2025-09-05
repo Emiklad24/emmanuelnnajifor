@@ -68,7 +68,7 @@ export default function AboutMe() {
               Social Links
             </h1>
             <div className="mt-4 ml-4">
-              <div className="flex flex-row justify-start items-center ">
+              {/* <div className="flex flex-row justify-start items-center ">
                 <a
                   href={userData?.socialLinks?.facebook}
                   className="flex flex-row items-center space-x-4 group"
@@ -80,7 +80,7 @@ export default function AboutMe() {
                     Facebook
                   </p>
                 </a>
-              </div>
+              </div> */}
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData?.socialLinks?.medium}
